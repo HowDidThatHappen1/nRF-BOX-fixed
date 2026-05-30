@@ -1,0 +1,19 @@
+#define BUTTON_UP_PIN       26 
+#define BUTTON_SELECT_PIN   33
+#define BUTTON_DOWN_PIN     32 
+#define BTN_PIN_RIGHT       27
+#define BTN_PIN_LEFT        13
+
+
+3 NRF
+
+GND	GND
+CE	D5 (NRF-1) | D16 (NRF-2) | D15 (NRF-3)
+SCK	D18
+MISO	D19
+
+VCC	3.3v
+CSN	D17 (NRF-1) | D4 (NRF-2) | D2 (NRF-3)
+MOSI	D23
+
+
